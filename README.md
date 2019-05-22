@@ -8,20 +8,20 @@
 - AWS Cli
 
 # Instalación del paquete "boto3" y "AWS Cli":
-
+```
 $ pip install boto3
 $ pip install awscli --upgrade
-
+```
 # Configurando las credenciales de AWS:
 
 Para poder utilizar la SDK y conectarnos con la cuenta de Amazon, es necesario proveer las credenciales. Esto lo podemos hacer con el comando interactivo de AWS Cli:
-
+```
 $ aws configure
-- AWS Access Key ID [None]: clave-de-acceso
-- AWS Secret Access Key [None]: clave-secreta
-- Default region name [None]: sa-east-1
-- Default output format [None]: json
-
+AWS Access Key ID [None]: clave-de-acceso
+AWS Secret Access Key [None]: clave-secreta
+Default region name [None]: sa-east-1
+Default output format [None]: json
+```
 # Script:
 
 La carga y descarga de archivos se hace mediante 2 funciones propias de boto3: 
